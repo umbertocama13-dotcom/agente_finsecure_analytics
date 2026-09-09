@@ -1,0 +1,104 @@
+FINSECURE ANALYTICS - CLIENTE: MERIDIAN CAPITAL GROUP
+BILANCIO CONSOLIDATO - ESERCIZIO FINANZIARIO 2025
+================================================================
+
+PREMESSA
+--------
+L'esercizio finanziario 2025 si chiude con risultati in linea con le aspettative
+per Meridian Capital Group. Il management rileva una performance complessivamente
+stabile, con ricavi in leggera crescita rispetto al 2024 e una gestione dei costi
+sotto controllo. Il cash flow operativo risulta negativo per effetto di investimenti
+straordinari effettuati nel secondo semestre, già pianificati nel budget annuale.
+Le prospettive per il 2026 sono prudentemente positive.
+
+
+CONTO ECONOMICO CONSOLIDATO (valori in M€)
+-------------------------------------------
+
+                        Q1 2025     Q2 2025     Q3 2025     Q4 2025     FY 2025
+                        -------     -------     -------     -------     -------
+Ricavi operativi         12.4        13.1        12.8        13.7        52.0
+Costi operativi          10.2        10.8        11.4        12.1        44.5
+                        -------     -------     -------     -------     -------
+EBITDA                    2.2         2.3         1.4         1.6         7.5
+Ammortamenti              0.4         0.4         0.4         0.4         1.6
+                        -------     -------     -------     -------     -------
+EBIT                      1.8         1.9         1.0         1.2         5.9
+Oneri finanziari          0.9         0.9         0.9         0.9         3.6
+                        -------     -------     -------     -------     -------
+EBT                       0.9         1.0         0.1         0.3         2.3
+Imposte (27%)             0.24        0.27        0.03        0.08        0.62
+                        -------     -------     -------     -------     -------
+Utile netto               0.66        0.73        0.07        0.22        1.68
+
+
+STATO PATRIMONIALE CONSOLIDATO AL 31/12/2025 (valori in M€)
+------------------------------------------------------------
+
+ATTIVO
+  Attività correnti
+    Cassa e disponibilità liquide                    3.2
+    Crediti commerciali                             18.4
+    Rimanenze                                        2.1
+    Altri crediti correnti                           1.8
+  Totale attività correnti                          25.5
+
+  Attività non correnti
+    Immobilizzazioni materiali                      14.3
+    Immobilizzazioni immateriali                     6.7
+    Partecipazioni                                   3.9
+  Totale attività non correnti                      24.9
+
+TOTALE ATTIVO                                       50.4
+
+PASSIVO E PATRIMONIO NETTO
+  Passività correnti
+    Debiti commerciali                              12.1
+    Debiti finanziari a breve                        4.5
+    Altri debiti correnti                            2.3
+  Totale passività correnti                         18.9
+
+  Passività non correnti
+    Debiti finanziari a lungo                       16.2
+    Fondi rischi e oneri                             1.8
+  Totale passività non correnti                     18.0
+
+  Patrimonio netto
+    Capitale sociale                                 5.0
+    Riserve                                          5.82
+    Utile d'esercizio                                1.68
+  Totale patrimonio netto                           12.5
+
+TOTALE PASSIVO E PATRIMONIO NETTO                   49.4
+
+
+CASH FLOW STATEMENT FY 2025 (valori in M€)
+-------------------------------------------
+Cash flow operativo                                 -1.8
+Cash flow da investimenti                           -3.2
+Cash flow da finanziamenti                          +2.1
+                                                  ------
+Variazione netta di cassa                           -2.9
+
+Cassa iniziale (01/01/2025)                          6.1
+Cassa finale (31/12/2025)                            3.2
+
+
+INDICATORI CHIAVE DI PERFORMANCE
+----------------------------------
+Margine EBITDA FY2025:          14.4%
+Margine netto FY2025:            3.2%
+Return on Equity (ROE):         13.4%
+Return on Assets (ROA):          3.3%
+Debt/Equity ratio:               2.8x
+
+Nota del management: "I risultati del 2025 confermano la stabilità del modello
+di business. Il cash flow operativo negativo è riconducibile agli investimenti
+straordinari pianificati nel secondo semestre e non rappresenta una criticità
+strutturale. L'utile netto di 1.68 M€ è in linea con il budget."
+
+
+================================================================
+Documento redatto dal management di Meridian Capital Group
+Data: 15 gennaio 2026
+================================================================

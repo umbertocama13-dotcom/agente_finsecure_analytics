@@ -1,0 +1,134 @@
+================================================================================
+                          PLUTO SPA
+              BILANCIO CONSOLIDATO - ESERCIZIO FY2025
+                  (01 gennaio 2025 - 31 dicembre 2025)
+================================================================================
+
+DATI SOCIETARI
+--------------
+Ragione Sociale:   Pluto S.p.A.
+Sede Legale:       Via della Repubblica, 47 - 20121 Milano (MI)
+P. IVA:            IT09834561207
+Codice Fiscale:    09834561207
+N. REA:            MI - 2187643
+Capitale Sociale:  € 5.000.000,00 i.v.
+Settore:           Consulenza finanziaria e gestione patrimoniale
+
+================================================================================
+CONTO ECONOMICO CONSOLIDATO
+================================================================================
+
+                                          FY2025           FY2024        Var. %
+                                          ------           ------        ------
+Ricavi netti da servizi              48.200.000       43.750.000        +10,2%
+Ricavi da commissioni                 6.340.000        5.980.000         +6,0%
+Altri ricavi operativi                1.120.000          870.000        +28,7%
+                                    -----------      -----------
+TOTALE RICAVI                        55.660.000       50.600.000        +10,0%
+
+Costo del personale                 (21.450.000)     (19.870.000)        +7,9%
+Ammortamenti e svalutazioni          (3.210.000)      (2.980.000)        +7,7%
+Costi per servizi esterni             (8.770.000)      (8.120.000)        +8,0%
+Costi generali e amministrativi       (4.330.000)      (4.010.000)        +8,0%
+Accantonamenti per rischi               (950.000)        (780.000)       +21,8%
+                                    -----------      -----------
+TOTALE COSTI OPERATIVI              (38.710.000)     (35.760.000)        +8,2%
+
+EBITDA                               16.950.000       14.840.000        +14,2%
+  Margine EBITDA %                       30,5%            29,3%
+
+Ammortamenti e svalutazioni          (3.210.000)      (2.980.000)
+                                    -----------      -----------
+EBIT                                 13.740.000       11.860.000        +15,8%
+  Margine EBIT %                         24,7%            23,4%
+
+Proventi finanziari netti               620.000          410.000
+Oneri finanziari                       (430.000)        (390.000)
+                                    -----------      -----------
+EBT (Utile ante imposte)             13.930.000       11.880.000        +17,3%
+
+Imposte sul reddito (IRES + IRAP)    (4.458.000)      (3.803.000)
+                                    -----------      -----------
+UTILE NETTO D'ESERCIZIO               9.472.000        8.077.000        +17,3%
+  Margine netto %                        17,0%            16,0%
+
+================================================================================
+STATO PATRIMONIALE CONSOLIDATO
+================================================================================
+
+ATTIVO                                FY2025           FY2024
+------                               --------         --------
+ATTIVO IMMOBILIZZATO
+  Immobilizzazioni immateriali        4.120.000        3.890.000
+  Immobilizzazioni materiali          7.840.000        7.210.000
+  Partecipazioni e titoli             3.560.000        2.980.000
+  Crediti finanziari a lungo termine    980.000          870.000
+TOTALE ATTIVO IMMOBILIZZATO          16.500.000       14.950.000
+
+ATTIVO CIRCOLANTE
+  Crediti verso clienti              11.230.000       10.450.000
+  Disponibilità liquide              18.740.000       14.320.000
+  Altre attività correnti             3.410.000        2.980.000
+TOTALE ATTIVO CIRCOLANTE             33.380.000       27.750.000
+
+TOTALE ATTIVO                        49.880.000       42.700.000
+
+PASSIVO E PATRIMONIO NETTO            FY2025           FY2024
+--------------------------           --------         --------
+PATRIMONIO NETTO
+  Capitale sociale                    5.000.000        5.000.000
+  Riserve                             8.230.000        6.540.000
+  Utile netto d'esercizio             9.472.000        8.077.000
+TOTALE PATRIMONIO NETTO              22.702.000       19.617.000
+
+PASSIVO A LUNGO TERMINE
+  Debiti finanziari a lungo termine   8.340.000        7.980.000
+  Fondi rischi e oneri                2.110.000        1.840.000
+  Trattamento Fine Rapporto           3.210.000        2.960.000
+TOTALE PASSIVO A LUNGO TERMINE       13.660.000       12.780.000
+
+PASSIVO CORRENTE
+  Debiti verso fornitori              5.640.000        4.870.000
+  Debiti tributari e previdenziali    4.780.000        3.890.000
+  Altre passività correnti            3.098.000        1.543.000
+TOTALE PASSIVO CORRENTE              13.518.000       10.303.000
+
+TOTALE PASSIVO E PATRIMONIO NETTO    49.880.000       42.700.000
+
+================================================================================
+NOTE AL BILANCIO - SINTESI
+================================================================================
+
+Investimenti previsti (approvati dal CdA in data 15/01/2025):
+Il Consiglio di Amministrazione ha deliberato un piano di investimenti strategici
+per l'esercizio FY2025 con un budget complessivo stanziato di € 8.500.000,
+suddiviso tra potenziamento infrastrutture IT, espansione commerciale e
+formazione del personale. Il piano dettagliato è oggetto di separata
+documentazione (Piano Investimenti FY2025).
+
+Personale:
+Al 31 dicembre 2025 il Gruppo conta 312 dipendenti a tempo indeterminato,
+distribuiti nelle sedi operative di Milano, Roma e Torino.
+
+Dividendi:
+Il CdA propone la distribuzione di un dividendo pari a € 3.000.000, a valere
+sull'utile netto dell'esercizio FY2025.
+
+================================================================================
+RELAZIONE DEL COLLEGIO SINDACALE
+================================================================================
+
+Il Collegio Sindacale, esaminati i documenti contabili e le risultanze delle
+verifiche periodiche svolte nel corso dell'esercizio, attesta che il bilancio
+consolidato FY2025 di Pluto S.p.A. è stato redatto in conformità ai principi
+contabili internazionali IAS/IFRS e risulta coerente con le scritture contabili
+e con le informazioni fornite dagli amministratori.
+
+Milano, 28 febbraio 2026
+
+Il Presidente del Collegio Sindacale
+Dott.ssa Elena Marchetti
+
+================================================================================
+                        FINE DOCUMENTO
+================================================================================

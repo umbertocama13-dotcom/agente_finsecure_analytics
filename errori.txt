@@ -1,0 +1,119 @@
+================================================================================
+         PLUTO S.p.A. - REGISTRO ERRORI NEI DOCUMENTI DI TEST
+                  Dataset FY2025 | Uso interno / QA
+================================================================================
+
+Questo file descrive i 5 errori intenzionalmente inseriti nei documenti
+fittizi di test per Pluto S.p.A. (3 interdocumentali + 2 intra-documento).
+Serve esclusivamente per verificare la capacità del sistema AI di rilevamento.
+
+================================================================================
+ERRORI INTERDOCUMENTALI (tra documenti diversi)
+================================================================================
+
+ERRORE I-1
+----------
+Tipo:           Valore numerico discordante tra documenti
+Documenti:      bilancio_consolidato_FY2025.txt  <-->  report_rischi_FY2025.pdf
+Campo:          Fatturato netto FY2025
+Valore CORRETTO (bilancio):  Euro 48.200.000
+  → In bilancio_consolidato_FY2025.txt, sezione "CONTO ECONOMICO CONSOLIDATO",
+    riga "Ricavi netti da servizi": Euro 48.200.000
+Valore ERRATO (report):      Euro 46.500.000
+  → In report_rischi_FY2025.pdf, sezione "EXECUTIVE SUMMARY", paragrafo 1:
+    "Il fatturato netto di riferimento [...] e' pari a Euro 46.500.000."
+Differenza:     Euro 1.700.000 in difetto nel report rischi
+Impatto:        Tutte le percentuali di esposizione al rischio calcolate nel
+                report_rischi_FY2025.pdf sulla base di questo fatturato
+                risultano distorte.
+
+--------------------------------------------------------------------------------
+
+ERRORE I-2
+----------
+Tipo:           Valore numerico discordante tra documenti
+Documenti:      nota_integrativa_FY2025.docx  <-->  email_sintesi_compliance.eml
+Campo:          Numero di dipendenti a tempo indeterminato al 31/12/2025
+Valore CORRETTO (nota integrativa):  312 dipendenti
+  → In nota_integrativa_FY2025.docx, sezione "3.1 Costo del Personale":
+    "Al 31 dicembre 2025 il Gruppo Pluto conta 312 dipendenti a tempo
+    indeterminato."
+Valore ERRATO (email):  287 dipendenti
+  → In email_sintesi_compliance.eml, sezione "2. ORGANICO E STRUTTURA":
+    "la struttura di Pluto S.p.A. risulta composta da 287 dipendenti a
+    tempo indeterminato."
+Differenza:     25 dipendenti in difetto nell'email compliance
+Impatto:        La percentuale della funzione compliance sul totale organico
+                riportata nell'email (14/287 = 4,9%) e' calcolata sulla
+                base dell'organico errato; con il dato corretto sarebbe
+                14/312 = 4,5%.
+
+--------------------------------------------------------------------------------
+
+ERRORE I-3
+----------
+Tipo:           Valore numerico discordante tra documenti
+Documenti:      piano_investimenti_FY2025.pdf  <-->  bilancio_consolidato_FY2025.txt
+Campo:          Budget complessivo Piano Investimenti FY2025
+Valore CORRETTO (piano investimenti):  Euro 9.800.000
+  → In piano_investimenti_FY2025.pdf, sezione "2. BUDGET COMPLESSIVO":
+    "Il budget complessivo approvato [...] ammonta a Euro 9.800.000"
+    (confermato anche nella tabella di dettaglio e nella sezione avanzamento).
+Valore ERRATO (bilancio):  Euro 8.500.000
+  → In bilancio_consolidato_FY2025.txt, sezione "NOTE AL BILANCIO - SINTESI",
+    paragrafo "Investimenti previsti":
+    "un budget complessivo stanziato di Euro 8.500.000"
+Differenza:     Euro 1.300.000 in difetto nel bilancio consolidato
+Impatto:        Il bilancio sottostima il totale degli impegni deliberati
+                dal CdA; la nota integrativa (docx) e' coerente con il piano
+                (riporta "impegni complessivi per Euro 9.800.000"), rendendo
+                il bilancio l'unico documento discordante.
+
+================================================================================
+ERRORI INTRA-DOCUMENTO (nello stesso documento)
+================================================================================
+
+ERRORE D-1
+----------
+Tipo:           Percentuale inconsistente con il valore assoluto nello stesso documento
+Documento:      report_rischi_FY2025.pdf
+Sezione:        "1.1 Esposizione al Rischio di Credito"
+Descrizione:    Il testo indica che l'esposizione lorda al rischio di credito
+                (crediti scaduti e in sofferenza) e' pari a Euro 5.920.000,
+                "corrispondente all'8,7% del fatturato netto."
+Calcolo reale:  5.920.000 / 46.500.000 (fatturato errato usato nello stesso doc)
+                = 12,73% ≈ 12,7%  (NON 8,7%)
+                Anche usando il fatturato corretto di 48.200.000:
+                5.920.000 / 48.200.000 = 12,28% ≈ 12,3%  (NON 8,7%)
+Valore errato:  8,7%
+Valore atteso:  ~12,7% sul fatturato riportato nel documento (46.500.000),
+                oppure ~12,3% sul fatturato corretto (48.200.000)
+Impatto:        Sottostima significativa dell'esposizione percentuale al rischio
+                di credito; la percentuale indicata (8,7%) non e' ricavabile
+                da alcuna combinazione plausibile dei valori nel documento.
+
+--------------------------------------------------------------------------------
+
+ERRORE D-2
+----------
+Tipo:           Errore aritmetico: somma delle voci non corrisponde al totale
+Documento:      report_rischi_FY2025.pdf
+Sezione:        "3.1 Perdite Operative Rilevate in FY2025"
+Descrizione:    La tabella delle perdite operative riporta tre voci di perdita
+                lorda e un totale che non e' la loro somma.
+Voci nella tabella:
+  - Errori di processo / esecuzione:  Euro 580.000
+  - Frodi esterne:                    Euro 390.000
+  - Malfunzionamenti sistemi IT:      Euro 270.000
+  ─────────────────────────────────────────────────
+  SOMMA CORRETTA:                     Euro 1.240.000
+Totale indicato in tabella:           Euro 1.390.000
+Differenza:     Euro 150.000 in eccesso nel totale
+Impatto:        La perdita operativa lorda totale risulta sovrastimata di
+                Euro 150.000, con conseguente distorsione del calcolo del
+                requisito patrimoniale per rischio operativo (TSA) e delle
+                statistiche di perdita storica.
+
+================================================================================
+                          FINE DOCUMENTO ERRORI
+================================================================================
