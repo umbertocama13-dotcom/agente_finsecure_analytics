@@ -22,10 +22,15 @@ I implemented the full pipeline requested, with particular emphasis on making th
 
 **Ingestion & preprocessing**: loading of .txt, .pdf, and .docx documents, text normalization, and chunking (RecursiveCharacterTextSplitter) with enriched metadata for traceability (source, section, category).
 **Indexing & retrieval**: a vector index built with LlamaIndex (persisted to disk), exposed to the agent through a dedicated semantic retrieval tool.  
-**Automated pre-agent analysis**: before the conversational agent is even activated, a deterministic workflow autonomously extracts KPIs (based on a canonical dictionary with aliases, expected units, categories) and risk metrics (VaR, duration, FX exposure, etc.), and flags anomalies by cross-checking values both between different documents and within the same document.  
+
+**Automated pre-agent analysis**: before the conversational agent is even activated, a deterministic workflow autonomously extracts KPIs (based on a canonical dictionary with aliases, expected units, categories) and risk metrics (VaR, duration, FX exposure, etc.), and flags anomalies by cross-checking values both between different documents and within the same document.
+
 **Scenario simulation**: a module that generates future risk scenarios (probability, drivers, assumptions, short/long-term effects), both automatically on the extracted data and on-demand via a dedicated tool exposed to the agent.  
+
 **Conversational agent**: built with LangChain (create_openai_tools_agent + AgentExecutor), temperature=0.0, a restrictive, compliance-oriented system prompt, with access to the pre-computed KPIs/risks/anomalies/scenarios (passed in as JSON) and about a dozen financial calculation tools (margins, ROI, net cash flow, threshold deviation, stressed values, etc.). Conversation memory uses a buffer with automatic LLM-based summarization once a token threshold is exceeded, avoiding any long-term memory retention.  
+
 **Dashboard**: visualized in Colab with ipywidgets and matplotlib (KPI/risk/anomaly counts, critical risks, most likely scenario), plus an integrated text chat with the agent.  
+
 **Validation**: a synthetic dataset with 5 deliberately inserted errors (3 cross-document, 2 intra-document) to test anomaly-detection capability.  
 
 **Observed results**: the agent correctly filters out-of-scope requests and calls tools when needed (though it often requires an explicit prompt to trigger a tool call). KPI/risk values passed via JSON were manually verified against bilancio_consolidato_FY2025.txt and were found consistent.  
